@@ -1,0 +1,29 @@
+
+{
+  "name": "lab-teste-software-iso",
+  "version": "1.0.0",
+  "description": "Laboratório Prático de Teste de Software - ISO 25010 e ISO 29119",
+  "main": "discountService.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --reporters=default --reporters=jest-html-reporters"
+  },
+  "jest-html-reporters": {
+    "publicPath": "./relatorio-iso29119",
+    "filename": "relatorio_testes.html",
+    "pageTitle": "ISO 29119-3: Test Summary Report - ISO 25010 Quality Audit",
+    "expand": true
+  },
+  "keywords": [
+    "jest",
+    "iso25010",
+    "iso29119",
+    "software-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.7"
+  }
+}
